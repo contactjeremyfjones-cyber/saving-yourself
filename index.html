@@ -309,7 +309,7 @@ footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.06); 
 
   <div class="cta-group">
     <a href="mailto:contactjeremyfjones@gmail.com?subject=Free Evaluation Copy Request — Saving Yourself&body=Hi Jeremy,%0D%0A%0D%0AI'd like to request a free evaluation copy of Saving Yourself.%0D%0A%0D%0APreferred format: [Print / Digital]%0D%0AMailing address (if print):%0D%0AProgram / School:%0D%0A%0D%0AThank you!" class="btn-large">✉ Email to Request a Copy</a>
-    <a href="https://www.amazon.com/s?k=Saving+Yourself+Jeremy+Jones+First+Responder" target="_blank" class="btn-amazon">🛒 View on Amazon</a>
+    <a href="https://www.amazon.com/dp/B0DS8RT769" target="_blank" class="btn-amazon">🛒 View on Amazon</a>
   </div>
 
   <div class="bulk-note">
@@ -320,7 +320,8 @@ footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.06); 
 <!-- FOOTER -->
 <footer>
   <p class="footer-title">Saving Yourself</p>
-  <p class="footer-sub">© 2024 Jonesventures LLC &nbsp;·&nbsp; Written by Jeremy F. Jones &nbsp;·&nbsp; Illustrations by Lane Carl</p>
+  <p class="footer-sub">© <span id="copy-year"></span> Jonesventures LLC &nbsp;·&nbsp; Written by Jeremy F. Jones &nbsp;·&nbsp; Illustrations by Lane Carl</p>
+<script>document.getElementById('copy-year').textContent = new Date().getFullYear();</script>
 </footer>
 
 </body>
